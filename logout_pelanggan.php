@@ -16,9 +16,9 @@
   <p>KLINIK HAIWAN ALBY, MUAR, JOHOR</p>
 </div>
 
-    <a href="/index.html"><h3 style="text-align: center;">Home</h3></a>
+    <a href="index.php"><h3 style="text-align: center;">Home</h3></a>
     <h1 style="text-align: center;">Berjaya Log Keluar</h1>
-    <a href="/login_customer.html"><h2 style="text-align: center;">Log masuk semula pelanggan</h2></a>
+    <a href="login_pelanggan.php"><h2 style="text-align: center;">Log masuk semula pelanggan</h2></a>
 
 </body>
 </html>

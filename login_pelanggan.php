@@ -46,8 +46,8 @@
                     <div class="forms-inputs mb-4"> <span>Kata laluan</span> <input autocomplete="off" type="password" v-model="password" v-bind:class="{'form-control':true, 'is-invalid' : !validPassword(password) && passwordBlured}" v-on:blur="passwordBlured = true">
                         <div class="invalid-feedback">Kata laluan sekurang-kurangnya 8 aksara.</div>
                     </div>
-                    <a href="daftar_akaun.html"><p style="text-align: center" onclick="register.php">Daftar Akaun</p></a>
-                    <div class="mb-3"> <a href="dashboard_pelanggan.html"><button v-on:click.stop.prevent="submit" class="btn btn-dark w-100">Login</button></a></div>
+                    <a href="daftar_akaun.html"><p style="text-align: center" onclick="daftar_akaun.php">Daftar Akaun</p></a>
+                    <div class="mb-3"> <a href="dashboard_pelanggan.php"><button v-on:click.stop.prevent="submit" class="btn btn-dark w-100">Login</button></a></div>
                 </div>
                 <div class="success-data" v-else>
                     <div class="text-center d-flex flex-column"> <i class='bx bxs-badge-check'></i> <span class="text-center fs-1">Berjaya log masuk</span> </div>

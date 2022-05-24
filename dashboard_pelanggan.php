@@ -1,3 +1,17 @@
+<?php
+
+/*
+dashboard pelanggan
+*/
+
+include('class/temujanji.php');
+
+//$object = new Appointment;
+
+//include('header.php');
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +33,10 @@
                     <div class="d-flex flex-column align-items-center"> 
                         <button class="btn"><i class="fa fa-dashboard"></i><span>Dashboard</span></button> 
                         <button class="btn mt-3"><i class="fa fa-users"></i><span>Buat Temu Janji</span></button> 
-                        <a href="status_temujanji.html"><button class="btn mt-3"><i class="fa fa-inbox"></i><span>Status Temu Janji</span></button></a>
+                        <a href="status_temujanji.php"><button class="btn mt-3"><i class="fa fa-inbox"></i><span>Status Temu Janji</span></button></a>
                         <span class="other mt-4">OTHERS</span> 
                         <button class="btn mt-3"><i class="fa fa-book"></i><span>Profil</span></button> 
-                        <a href="logout_pelanggan.html"><button class="btn mt-3"><i class="fa fa-question-circle"></i><span>Log Keluar</span></button></a>
+                        <a href="logout_pelanggan.php"><button class="btn mt-3"><i class="fa fa-question-circle"></i><span>Log Keluar</span></button></a>
                     </div>
                 </div>
             </div>
@@ -52,24 +66,6 @@
                             <div class="d-flex p-2 mt-2 justify-content-between rounded">
                                 <div class="d-flex flex-column"><span class="type">Severe</span><span class="number">5</span></div>
                                 <div class="d-flex flex-column"><img src=" https://i.imgur.com/iLU5F9A.png" class="logo4" height="40" width="40" /><span class="percentage4">13%</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center mt-5 gap-2 p-3">
-                        <div class="col-md-6">
-                            <div class="card cardchildchild p-2">
-                                <div class="profile1"> <img src="https://i.imgur.com/NI5b1NX.jpg" height="90" width="90" class="rounded-circle" /> </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center mt-5"> <span class="name">Bess Wills</span> <span class="mt-1 braceletid">Bracelet ID:SFG 38393</span> <span class="dummytext mt-3 p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text elit more smtit.Kimto lee. </span> </div>
-                                <div class="d-flex justify-content-center align-items-center mt-3"> <button class="btn1">Next Appoinment</button> </div>
-                                <div class=" icons d-flex flex-row justify-content-center gap-3 mt-4"> <span><i class="fa fa-google"></i></span> <span><i class="fa fa-facebook"></i></span> <span><i class="fa fa-twitter"></i></span> <span><i class="fa fa-instagram"></i></span> </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="card cardchildchild p-2">
-                                <div class="profile1"> <img src="https://i.imgur.com/YyoCGsa.jpg" height="90" width="90" class="rounded-circle" /> </div>
-                                <div class="d-flex flex-column justify-content-center align-items-center mt-5"> <span class="name">Bess Wills</span> <span class="mt-1 braceletid">Bracelet ID:SFG 38393</span> <span class="dummytext mt-3 p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Text elit more smtit.Kimto lee. </span> </div>
-                                <div class="d-flex justify-content-center align-items-center mt-3"> <button class="btn2">Next Appoinment</button> </div>
-                                <div class=" icons d-flex flex-row justify-content-center gap-3 mt-4"> <span><i class="fa fa-google"></i></span> <span><i class="fa fa-facebook"></i></span> <span><i class="fa fa-twitter"></i></span> <span><i class="fa fa-instagram"></i></span> </div>
                             </div>
                         </div>
                     </div>

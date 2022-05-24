@@ -25,17 +25,17 @@
       <div class="col-sm-4">
         <h3 style="text-align:center">PELANGGAN</h3>
         <p style="text-align:center">Log masuk / daftar akaun untuk pelanggan</p>
-        <a href="login_customer.html"><button type="button" style="position: center" class="btn btn-success">Log Masuk / Daftar Akaun</button></a>
+        <a href="login_pelanggan.php"><button type="button" style="position: center" class="btn btn-success">Log Masuk / Daftar Akaun</button></a>
       </div>
       <div class="col-sm-4">
         <h3 style="text-align:center">STAF KLINIK</h3>
         <p style="text-align:center">Log masuk untuk staf klinik</p>
-        <a href="/staf/login_staff.html"><button type="button" style="position: center" class="btn btn-success">Staf Klinik</button></a>
+        <a href="staf/login_staff.php"><button type="button" style="position: center" class="btn btn-success">Staf Klinik</button></a>
       </div>  
       <div class="col-sm-4">
         <h3>PENTADBIR SISTEM</h3>        
         <p>Log masuk untuk pentadbir sistem</p>
-        <a href="/pentadbir/login_admin.html"><button type="button" style="position: center" class="btn btn-success">Pentadbir Sistem</button></a>
+        <a href="pentadbir/login_admin.php"><button type="button" style="position: center" class="btn btn-success">Pentadbir Sistem</button></a>
       </div>
     </div>
   </div>

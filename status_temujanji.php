@@ -1,3 +1,12 @@
+<?php
+
+//status temu janji untuk view pelanggan
+
+include('navigation_bar.php');
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
