@@ -30,9 +30,12 @@
 <div class="container-fluid p-5 bg-primary text-white text-center">
   <h1>SISTEM TEMU JANJI VETERINAR</h1>
   <p>KLINIK HAIWAN ALBY, MUAR, JOHOR</p> 
-</div>
 
-<a href="/index.html"><h3 style="text-align: center">Home</h3></a>
+    <ul>
+        <li><a href="/vetappointment-klinikalby/index.php">Utama</a></li>
+        <li><a href="#news">Hubungi Kami</a></li>
+    </ul>
+</div>
 
 <div class="container mt-5">
     <div class="row d-flex justify-content-center">
@@ -63,6 +66,17 @@
 <style>
     body {
     background: #5F9EA0
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+    }
+
+    li {
+        display: inline;
     }
 
     .card {

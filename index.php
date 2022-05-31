@@ -18,6 +18,7 @@
   </div>
 
   <div class="color-overlay">
+  
   <!--Section 1--> 
   <div class="container mt-5">
     
@@ -25,22 +26,26 @@
       <div class="col-sm-4">
         <h3 style="text-align:center">PELANGGAN</h3>
         <p style="text-align:center">Log masuk / daftar akaun untuk pelanggan</p>
-        <a href="login_pelanggan.php"><button type="button" style="position: center" class="btn btn-success">Log Masuk / Daftar Akaun</button></a>
+        <a href="login_pelanggan.php"><button type="button" style="position: center;" class="btn btn-success">Log Masuk / Daftar Akaun</button></a>
       </div>
       <div class="col-sm-4">
         <h3 style="text-align:center">STAF KLINIK</h3>
         <p style="text-align:center">Log masuk untuk staf klinik</p>
-        <a href="staf/login_staff.php"><button type="button" style="position: center" class="btn btn-success">Staf Klinik</button></a>
+        <a href="staf/login_staff.php"><button type="button" style="position: center;" class="btn btn-success">Staf Klinik</button></a>
       </div>  
       <div class="col-sm-4">
         <h3>PENTADBIR SISTEM</h3>        
         <p>Log masuk untuk pentadbir sistem</p>
-        <a href="pentadbir/login_admin.php"><button type="button" style="position: center" class="btn btn-success">Pentadbir Sistem</button></a>
+        <a href="pentadbir/login_admin.php"><button type="button" style="position: center;" class="btn btn-success">Pentadbir Sistem</button></a>
       </div>
+    </div>
+    
+    <div class="row">
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
   </div>
 
-  <section class="footer">
+  <div class="footer">
     <!-- Footer -->
     <footer class="text-center text-white" style="background-color: #0a4275;">
       <!-- Grid container -->
@@ -66,18 +71,23 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-  </section>
+</div>
 
 </div>
 </body>
 </html>
 
 <style>
-  body {
+  html, body {
     background-image: url("media/cat_background.jpeg");
     background-repeat: no-repeat; 
     background-attachment: fixed;
     background-size: 100% 100%;
+
+    /* no scroll, fixed one page */
+    margin: 0;
+    height: 100%;
+    overflow: hidden
   }
 
   .color-overlay {
@@ -87,4 +97,12 @@
     opacity: .7;
     position: absolute;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100;
+  }
+
 </style>
