@@ -34,6 +34,19 @@
 
 <a href="index.html"><h3 style="text-align: center">Home</h3></a>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+        <h2 style="text-align: center">Log Masuk Pelanggan</h2>
+        <form action="validation.php" method="post">
+            <div class="form-group">
+                <label>Nama Pengguna</label>
+                <input type="text" name="user"
+</div>
+
+
+
+
 <div class="container mt-5">
     <div class="row d-flex justify-content-center">
         <div class="col-md-6">
